@@ -56,7 +56,7 @@
         /* Hero (Giriş) Bölümü */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200');
+                        url('../gorseller/igdir.png');
             background-size: cover;
             background-position: center;
             height: 70vh;
@@ -71,6 +71,17 @@
             font-size: 3rem;
             margin-bottom: 10px;
         }
+
+        .weather-box {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        padding: 10px 20px;
+        border-radius: 20px;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 15px;
+}
 
         /* İçerik Alanları */
         .container {
@@ -147,9 +158,11 @@
         .image-area { flex: 1; min-width: 300px; }
 
         .rounded-img {
-            width: 100%;
+            width: 60%;
+            height: 90%;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 20%;
         }
 
         /* Footer */
